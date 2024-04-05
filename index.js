@@ -9,7 +9,7 @@ var fs = require('fs');
 const { cwd } = require('process');
 const app = express()
 var cors = require('cors')
-const port = 3000
+const port = 80
 passport.use(localStrategy())
 const multer = require('multer')
 const upload = multer({ dest: 'uploads/' })
